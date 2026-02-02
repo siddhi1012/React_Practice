@@ -40,8 +40,17 @@ for (let key in student) {
 
 // print all even number from 0 to 100
 
-for (let i = 0; i <= 100; i++) {
-    if (i % 2 == 0) {
-        console.log(i)
-    }
+// for (let i = 0; i <= 100; i++) {
+//     if (i % 2 == 0) {
+//         console.log(i)
+//     }
+// }
+
+//Guessing game number
+
+let numGame = 25;
+let userNum = prompt("Guess the game number")
+while (userNum != numGame) {
+    userNum = prompt("You Guess Wrong Number, Guess Again")
 }
+alert25("Congrats! You Entered right Number");
