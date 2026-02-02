@@ -48,9 +48,26 @@ for (let key in student) {
 
 //Guessing game number
 
-let numGame = 25;
-let userNum = prompt("Guess the game number")
-while (userNum != numGame) {
-    userNum = prompt("You Guess Wrong Number, Guess Again")
+// let numGame = 25;
+// let userNum = prompt("Guess the game number")
+// while (userNum != numGame) {
+//     userNum = prompt("You Guess Wrong Number, Guess Again")
+// }
+// alert25("Congrats! You Entered right Number");
+
+
+// let str = "Apna Collge"
+// console.log(str[8])
+
+let obj = {
+    item: "Pen",
+    price: 10
 }
-alert25("Congrats! You Entered right Number");
+
+console.log(`${obj.item} having the  price ${obj.price} rupees`)
+let str = "Siddhi Gavhane     "
+console.log(str.length)
+console.log(str.toUpperCase())
+console.log(str.toLowerCase())
+console.log(str.trim())
+
