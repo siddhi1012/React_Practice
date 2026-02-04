@@ -19,7 +19,7 @@ export const Resturant = () => {
                     <button className='btn-group__item' onClick={() => filterItems("lunch")}>Lunch</button>
                     <button className='btn-group__item' onClick={() => filterItems("evening")}>Evening</button>
                     <button className='btn-group__item' onClick={() => filterItems("dinner")}>Dinner</button>
-                    <button className='btn-group__item' onClick={() => setmenuData(Menu)}   >All</button>
+                    <button className='btn-group__item' onClick={() => setmenuData(Menu)}>All</button>
                 </div>
 
             </nav>
