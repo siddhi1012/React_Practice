@@ -1,16 +1,9 @@
+import {Resturant} from "./component/Basics/Resturant"
 import React from "react"
-const App = () => {
-  return (
-    <> <MyName/>
-      <h1 className="myclassname">Hello World {3 + 3}</h1>
-    </>
 
-  )
+const App = () => {
+  return <div> <Resturant /> </div>
 }
-const MyName = () => {
-  return (
-    <h1> React Components </h1>
-  )
-}
-export default App ;
+
+ export default App;
 
