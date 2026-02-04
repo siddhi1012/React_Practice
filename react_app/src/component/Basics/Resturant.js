@@ -6,7 +6,7 @@ export const Resturant = () => {
     const [menuData, setmenuData] = useState(Menu);
     const filterItems = (category) => {
         const updatedList = Menu.filter((curElem) => {
-               return curElem.category === category
+            return curElem.category === category
         });
         setmenuData(updatedList);
     };
@@ -16,10 +16,10 @@ export const Resturant = () => {
             <nav className='navbar'>
                 <div className='btn-group'>
                     <button className='btn-group__item' onClick={() => filterItems("breakfast")}>Breakfast</button>
-                    <button className='btn-group__item'>Lunch</button>
-                    <button className='btn-group__item'>Evening</button>
-                    <button className='btn-group__item'>Dinner</button>
-                    <button className='btn-group__item'>All</button>
+                    <button className='btn-group__item' onClick={() => filterItems("lunch")}>Lunch</button>
+                    <button className='btn-group__item' onClick={() => filterItems("evening")}>Evening</button>
+                    <button className='btn-group__item' onClick={() => filterItems("dinner")}>Dinner</button>
+                    <button className='btn-group__item' onClick={() => setmenuData(Menu)}   >All</button>
                 </div>
 
             </nav>
