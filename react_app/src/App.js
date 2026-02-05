@@ -1,9 +1,13 @@
-import {Resturant} from "./component/Basics/Resturant"
+import { Resturant } from "./component/Basics/Resturant"
 import React from "react"
-
+import { useState } from "./component/Hooks/useState"
 const App = () => {
-  return <div> <Resturant /> </div>
+  return
+  <>
+    <Resturant />
+    <useState />
+  </>
 }
 
- export default App;
+export default App;
 
