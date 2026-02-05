@@ -2,6 +2,12 @@ import React, { useState } from 'react'
 import "./style.css"
 import Menu from './menuApi'
 import MenuCard from './MenuCard'
+
+
+const uniqueList = [...new Set(Menu.map((curElem) => {
+    return curElem.category;
+}))]
+console.log(uniqueList);
 export const Resturant = () => {
     const [menuData, setmenuData] = useState(Menu);
     const filterItems = (category) => {
@@ -21,7 +27,6 @@ export const Resturant = () => {
                     <button className='btn-group__item' onClick={() => filterItems("dinner")}>Dinner</button>
                     <button className='btn-group__item' onClick={() => setmenuData(Menu)}>All</button>
                 </div>
-
             </nav>
             <MenuCard menuData={menuData} />
         </>
