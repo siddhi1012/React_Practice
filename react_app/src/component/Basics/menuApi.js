@@ -81,6 +81,15 @@ const Menu = [
         description:
             "Samosa is a popular Indian snack with a crispy triangular pastry filled with spiced potatoes, peas, and herbs 🥔. It is deep-fried and best enjoyed hot, often served with chutney or tea ☕."
     },
+    {
+        id: 10,
+        image: "../images/Dosa.jpg",
+        name: "Dosa",
+        category: "Brunch",
+        price: "40₹",
+        description:
+            "Dosa 🥞 is a South Indian dish 🇮🇳 made from fermented rice and urad dal batter, cooked as a thin, crispy pancake 😋 and served with chutney 🥥 and sambar 🍲."
+    },
 ];
 
 export default Menu;
