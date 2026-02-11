@@ -1,10 +1,17 @@
-
+import UserCard from "./components/UserCard"
+import './App.css'
 function App() {
 
 
   return (
     <>
-     <p>Hello from App.jsx!</p>
+      <div className="container">
+        <UserCard />
+        <UserCard />
+        <UserCard />
+      </div>
+
+
     </>
   )
 }
