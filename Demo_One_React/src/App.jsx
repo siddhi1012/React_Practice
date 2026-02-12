@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <div className="container">
-        <UserCard name="John Doe" image={a} />
-        <UserCard name="Jane Smith" image={b} />
-        <UserCard name="Bob Johnson" image={c} />
+        <UserCard name="John Doe" image={a}  />
+        <UserCard name="Jane Smith" image={b}  />
+        <UserCard name="Bob Johnson" image={c}  />
       </div>
 
 
